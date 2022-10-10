@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form>
+        <!--Inputs de texto-->
+        <label>Nome</label><br>
+        <input type="text" name="txtNome"><br>
+        <label>Idade</label><br>
+        <input type="number" name="txtIdade"><br>
+        <label>Data de Nascimento</label><br>
+        <input type="date" name="txtNascimento"><br>
+        <!--radio buttons-->
+        <input type="radio" name="curso" id="ds">
+        <label>Desenvolvimento de Sistemas</label><br>
+        <input type="radio" name="curso" id="logis">
+        <label>Logistica</label><br>
+        <input type="radio" name="curso" id="meca">
+        <label>Mecatrônica</label><br>
+        <!--select de estado-->
+        <select name="estados">
+            <option value="">Selecionar estado--</option>
+            <option value="Ba">Bahia</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </select><br>
+        <!--Botão de confirmação-->
+        <button>Enviar</button>
+
+    </form>
+</body>
+</html>

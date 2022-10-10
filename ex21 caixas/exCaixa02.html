@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags semanticas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(159, 205, 246);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+
+        }
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav{
+            background-color: rgb(109, 107, 107);
+            padding: 5px;
+            margin: 2px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.682);
+            border-radius: 5px;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(248, 240, 240);
+            font-weight: 600;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: rgb(73, 133, 13);
+            color: rgb(241, 236, 230);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+
+        }
+        footer >p{
+            margin: 0px;
+        }
+        article > aside{
+            background-color: rgb(167, 174, 180);
+            border-radius: 4px;
+        }
+        aside{
+            text-align: right;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 2px 1px  rgba(0, 0, 0, 0.519);
+        }
+        h2{
+            text-align: center;
+        }
+        #assuntos{
+            background-color: aquamarine;
+            text-align: center;
+            padding: 1px;
+            margin-left: 37%;
+            margin-right: 37%;
+            border-radius: 10px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50% ;
+        }
+        /*
+            ensinando bordas personalizadas: https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-7-bordas-decoradas/
+        */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <!--Cabeçalho-->
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <!--Conteudo principal-->
+        <section id="assuntos">
+            <h2>Outro titulo</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do dia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis at perferendis, iusto provident ipsum delectus ea alias optio voluptatem rem mollitia quasi. Assumenda illum provident quasi accusamus eaque unde voluptas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia repellendus natus consectetur. Iusto rerum, nam ad reprehenderit animi unde, veritatis perferendis nulla sed fugiat quas, in a minima distinctio!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed neque iure nisi accusamus sapiente ipsam fugit, ad et veniam itaque voluptatum dolorum amet sunt fugiat laudantium facilis recusandae repellat facere.</p>
+                <aside>
+                    <p>Artigo escrito por fulaninho de tal</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <!--Rodapé-->
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+
+    
+</body>
+</html>

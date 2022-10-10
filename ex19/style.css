@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+   o que é em html id em css é #
+   e o que é class em html em css é # 
+   diferença de id e class: em cade css só se deve usar o id uma vez sem repetir, caso vá repetir usar o class.
+   pode-se usar o id e o class juntos mas o id sempre se sobrepoem ao class
+*/
+body{
+    background-color: rgb(150, 204, 150);
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(18, 123, 18); 
+} 
+h2{
+    color: rgb(49, 109, 49);
+}
+#principal{
+    text-align: center;
+    background-color: rgb(18, 123, 18);
+    color: aliceblue;
+}  
+
+.basico{
+    text-decoration: underline;
+    font-weight: 500;
+    color: yellow;
+    font-style: normal;
+
+}
+.intermediario{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 700;
+    color: blue;
+    font-style: italic;   
+}
+.avançado{
+    text-decoration: underline;
+    text-align: right;
+    font-weight: 900;
+    color: brown;
+    font-style: oblique;
+}
+.destaque{
+    background-color: blueviolet;
+}

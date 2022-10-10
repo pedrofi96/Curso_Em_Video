@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    a{
+        color: red;
+    }
+    a:visited{
+        color: blueviolet;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:active{
+        color: yellow;
+        text-decoration: underline;
+    }
+    a::before{
+        content: '⇒';
+    }
+    a::after{
+        content: '⇐';
+        text-decoration: none;
+        font-weight: normal;
+    }
+    .especial::before{
+        content: '♡⇒';
+    }
+    .especial::after{
+        content: '⇐♡';
+    }
+    /*
+        pseudo classes tem haver com o estado do elemento.
+        pseudo elemento: 
+    */
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" class="especial">Link 1</a></li>
+        <li><a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/16331758#overview"target="_blank">Link 2</a></li>
+        <li><a href="https://www.google.com/search?client=opera-gx&q=pseudo+classe&sourceid=opera&ie=UTF-8&oe=UTF-8"target="_blank">Link 3</a></li>
+    </ul>
+
+
+</body>
+</html>
